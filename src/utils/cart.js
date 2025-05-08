@@ -13,6 +13,7 @@ export default function getCart(){
 
 export function addToCart(product , qty){
     let cart = getCart();
+    
     const productIndex = cart.findIndex((prdct) => prdct.productId === product.productId);
     //-1 , index
     if(productIndex == -1){
