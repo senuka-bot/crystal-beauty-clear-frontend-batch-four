@@ -101,6 +101,13 @@ export default function LoginPage() {
 							<Link to={"/register"}>Register Now</Link>
 						</span>
 					</p>
+					{/* forget password */}
+					<p className="text-gray-600 text-center m-[10px]">
+						Forget your password? &nbsp;
+						<span className="text-green-500 cursor-pointer hover:text-green-700">
+							<Link to={"/forget"}>Reset Password</Link>
+						</span>
+					</p>
 				</div>
 			</div>
 		</div>
