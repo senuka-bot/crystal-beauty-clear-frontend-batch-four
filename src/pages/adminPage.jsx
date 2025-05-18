@@ -35,7 +35,8 @@ export default function AdminPage() {
                         navigate("/login");
                     }
                 }).catch(
-                    ()=>{
+                    (e)=>{
+						console.log(e)
                         toast.error("Something went wrong please login again");
                         navigate("/login");
                     }
